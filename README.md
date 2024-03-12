@@ -14,4 +14,7 @@ might help with the notation for mathematical expressions.
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
 Assume f(n) = $\log_{2} n$
+
 $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
+
+By logoritim laws log_{2} n = log_{5} n / log_{5} 2
