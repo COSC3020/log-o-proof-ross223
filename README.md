@@ -18,3 +18,9 @@ Assume f(n) = $\log_{2} n$
 $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
 
 By logoritim laws: $log_{2} n$ = $(log_{5} n) \over (log_{5} 2)$
+
+Therefore: $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \(log_{5} n) \over (log_{5} 2) \forall n \geq n_0$
+
+Since c / $log_{5} 2$ is a constant we can rewrite this as some constant k.
+
+Therefore: $T(n) \in O(\log_{2} n) \iff \exists k, n_0: T(n) \leq k \cdot \log_{5} n \forall n \geq n_0$
