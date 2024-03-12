@@ -24,3 +24,5 @@ Therefore: $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \(log_
 Since c / $log_{5} 2$ is a constant we can rewrite this as some constant k.
 
 Therefore: $T(n) \in O(\log_{2} n) \iff \exists k, n_0: T(n) \leq k \cdot \log_{5} n \forall n \geq n_0$
+
+Therfore $O(\log_{2} n)$ is equivilant to $O(\log_{5} n)$
